@@ -25,8 +25,7 @@ Source CSV (Unity Catalog Volume) -> Bronze -> Silver (clean + rejected) -> Gold
 
 ## Pipeline
 
-![pipeline_graph](<img width="694" height="373" alt="dashboard_overview" src="https://github.com/user-attachments/assets/1cf3de19-68b5-4f36-818e-a245c02aa1db" />
-)
+![Dashboard Overview](https://github.com/user-attachments/assets/1cf3de19-68b5-4f36-818e-a245c02aa1db)
 
 Bronze keeps the raw data, Silver cleans it and quarantines bad rows, and Gold builds the summary tables. The full code is in `ride_trips_pipeline.sql`.
 
